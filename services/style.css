@@ -150,3 +150,12 @@ details p{color:var(--muted);margin-top:12px;font-size:16px}
   .steps li{padding:74px 22px 24px}
   .cta h2{font-size:72px}
 }
+
+.ex-cafe{background:radial-gradient(120% 90% at 80% 0%,#ffb870 0%,#c2551f 45%,#3b1a0a 100%)}
+.who{display:grid;gap:14px}
+.w{background:#fff;border-radius:24px;padding:24px}
+.w span{font-size:30px}
+.w h3{margin-top:10px}
+.w p{color:var(--muted);font-size:15px}
+.w b{display:block;margin-top:12px}
+@media(min-width:760px){.ex-grid{grid-template-columns:repeat(3,1fr)}.who{grid-template-columns:repeat(3,1fr)}}
