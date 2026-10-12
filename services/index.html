@@ -5,103 +5,158 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Сайты, боты и приложения для бизнеса — Темирлан Алмасов, Алматы</title>
 <meta name="description" content="Сайт-визитка за срок до 2 дней от 19 900 ₸. Telegram-боты, интеграции Kaspi и 1С, Mini Apps, бэкенд и мобильные приложения. Алматы, ИП.">
+<meta name="theme-color" content="#ffffff">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
 
-<header class="top">
-  <a class="logo" href="#">Темирлан<span> · IT</span></a>
-  <nav><a href="#services">Цены</a><a href="#examples">Примеры</a><a href="#contacts">Связаться</a></nav>
+<header class="nav">
+  <div class="nav-in">
+    <a class="logo" href="#top">Темирлан <span>IT</span></a>
+    <nav><a href="#services">Услуги</a><a href="#examples">Примеры</a><a href="#how">Как работаем</a></nav>
+    <a class="nav-cta" href="#contacts">Связаться</a>
+  </div>
 </header>
 
+<main id="top">
+
 <section class="hero">
-  <div class="wrap">
-    <p class="tag">Алматы · сайты · боты · приложения</p>
-    <h1>Сайт для бизнеса за&nbsp;2&nbsp;дня — от&nbsp;19&nbsp;900&nbsp;₸</h1>
-    <p class="lead">Делаю сайты, Telegram-ботов, интеграции и мобильные приложения — быстрее и дешевле студий. Современные ИИ-инструменты сильно ускорили разработку: рутину делает ИИ, а архитектуру, качество и запуск проверяю я как разработчик.</p>
-    <a class="btn" href="https://wa.me/77475516968?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D1%83%D0%B7%D0%BD%D0%B0%D1%82%D1%8C%20%D1%86%D0%B5%D0%BD%D1%83%20%D0%BD%D0%B0%20%D1%81%D0%B0%D0%B9%D1%82">
-      <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2c0 1.3.9 2.5 1 2.7.1.2 1.8 2.8 4.5 3.9 1.7.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></svg>
-      Узнать цену в WhatsApp
+  <p class="eyebrow r">Сайты · Telegram-боты · Приложения · Алматы</p>
+  <h1 class="r">Сайт для бизнеса.<br><span class="grad">За 2 дня.</span></h1>
+  <p class="hero-sub r">От 19 900 ₸. ИИ берёт на себя рутину — разработчик отвечает за качество и запуск.</p>
+  <div class="hero-cta r">
+    <a class="pill" href="https://wa.me/77475516968?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D1%83%D0%B7%D0%BD%D0%B0%D1%82%D1%8C%20%D1%86%D0%B5%D0%BD%D1%83%20%D0%BD%D0%B0%20%D1%81%D0%B0%D0%B9%D1%82">Узнать цену</a>
+    <a class="link" href="#examples">Смотреть примеры <span aria-hidden="true">›</span></a>
+  </div>
+  <div class="devices r">
+    <a class="phone p1" href="../demo-dental/" aria-label="Открыть демо стоматологии">
+      <span class="notch"></span>
+      <span class="screen"><iframe src="../demo-dental/" title="Демо: стоматология" loading="lazy" tabindex="-1"></iframe></span>
     </a>
-    <ul class="facts"><li>Предоплата 50%</li><li>Правки без лимита по заданию</li><li>Оплата Kaspi · ИП</li></ul>
+    <a class="phone p2" href="../demo-carwash/" aria-label="Открыть демо автомойки">
+      <span class="notch"></span>
+      <span class="screen"><iframe src="../demo-carwash/" title="Демо: автомойка" loading="lazy" tabindex="-1"></iframe></span>
+    </a>
   </div>
 </section>
 
-<section class="block" id="services">
-  <div class="wrap">
-    <h2>Услуги и цены</h2>
-    <p class="sub">Цена «от» — точную назову после 15-минутного созвона. Сроки максимальные, считаются с получения материалов; обычно сдаю раньше.</p>
-    <ul class="cards">
-      <li class="hit"><span class="badge">Чаще всего берут</span><h3>Сайт-визитка</h3><p>Одна страница под телефон: услуги, цены, фото, карта, кнопка WhatsApp. Хостинг бесплатный.</p><b>от 19 900 ₸</b><small>до 2 дней</small></li>
-      <li><h3>Сайт до 5 страниц</h3><p>Услуги, прайс, галерея, о компании, контакты. Свой домен .kz.</p><b>от 45 000 ₸</b><small>до 4 дней</small></li>
-      <li><h3>Telegram-бот</h3><p>Заявки, запись, ответы на частые вопросы — сразу вам в Telegram.</p><b>от 35 000 ₸</b><small>до 3 дней</small></li>
-      <li><h3>Бот с оплатой или таблицей</h3><p>Приём оплаты, Google-таблица заявок, команды для администратора.</p><b>от 80 000 ₸</b><small>до 7 дней</small></li>
-      <li><h3>Интеграции</h3><p>Заказы Kaspi → Telegram, сайт → CRM или таблица, обмен с 1С.</p><b>от 60 000 ₸</b><small>до 5 дней</small></li>
-      <li><h3>Приложение в Telegram (Mini App)</h3><p>Каталог, запись, личный кабинет прямо внутри Telegram, админка.</p><b>от 150 000 ₸</b><small>до 3 недель</small></li>
-      <li><h3>Бэкенд, API, админ-панель</h3><p>Сервер, база данных и админка для вашего сайта или приложения.</p><b>от 250 000 ₸</b><small>до 3 недель</small></li>
-      <li><h3>Мобильное приложение</h3><p>Android + iOS на Flutter, публикация в Google Play и App Store.</p><b>от 400 000 ₸</b><small>до 5 недель</small></li>
-      <li><h3>Поддержка</h3><p>Правки, обновления, контроль работы: сайт / бот / Mini App / приложение.</p><b>от 5 000 ₸/мес</b><small>5 / 15 / 25 / 40 тыс ₸</small></li>
-    </ul>
+<section class="stats dark">
+  <div class="wrap stats-grid">
+    <div class="stat r"><b class="grad-light">2 дня</b><span>максимальный срок<br>сайта-визитки</span></div>
+    <div class="stat r"><b class="grad-light">19 900 ₸</b><span>старт —<br>сайт-визитка</span></div>
+    <div class="stat r"><b class="grad-light">0 ₸</b><span>в месяц за хостинг<br>сайта-визитки</span></div>
   </div>
 </section>
 
-<section class="block alt" id="examples">
+<section class="section gray" id="services">
   <div class="wrap">
-    <h2>Примеры сайтов</h2>
-    <p class="sub">Демо-сайты: бизнесы вымышленные, так выглядит результат пакета «Сайт-визитка». Откройте с телефона.</p>
-    <div class="examples">
-      <a class="ex" href="https://zatovagul.github.io/demo-sites/demo-carwash/" target="_blank" rel="noopener">
-        <span class="ex-ico">🚗</span><span><b>Автомойка</b><br><small>услуги, цены, запись в WhatsApp</small></span><span class="arrow">→</span>
+    <p class="kicker r">Услуги и цены</p>
+    <h2 class="r">Всё, что нужно бизнесу онлайн.</h2>
+    <p class="lead r">Цена «от» — точную назову после 15-минутного созвона. Сроки максимальные и считаются с получения материалов. Обычно сдаю раньше.</p>
+    <div class="bento">
+      <article class="card feature r">
+        <span class="chip">Чаще всего берут</span>
+        <h3>Сайт-визитка</h3>
+        <p>Одна страница под телефон: услуги, цены, фото, карта и кнопка WhatsApp. Хостинг бесплатный.</p>
+        <div class="price"><b>от 19 900 ₸</b><span>до 2 дней</span></div>
+      </article>
+      <article class="card r"><h3>Сайт до 5 страниц</h3><p>Услуги, прайс, галерея, о компании, контакты. Свой домен .kz.</p><div class="price"><b>от 45 000 ₸</b><span>до 4 дней</span></div></article>
+      <article class="card r"><h3>Telegram-бот</h3><p>Заявки, запись и ответы на частые вопросы — сразу вам в Telegram.</p><div class="price"><b>от 35 000 ₸</b><span>до 3 дней</span></div></article>
+      <article class="card r"><h3>Бот с оплатой или таблицей</h3><p>Приём оплаты, Google-таблица заявок, команды для администратора.</p><div class="price"><b>от 80 000 ₸</b><span>до 7 дней</span></div></article>
+      <article class="card r"><h3>Интеграции</h3><p>Заказы Kaspi → Telegram, сайт → CRM или таблица, обмен с 1С.</p><div class="price"><b>от 60 000 ₸</b><span>до 5 дней</span></div></article>
+      <article class="card r"><h3>Mini App в Telegram</h3><p>Каталог, запись, личный кабинет прямо внутри Telegram. С админкой.</p><div class="price"><b>от 150 000 ₸</b><span>до 3 недель</span></div></article>
+      <article class="card wide r"><h3>Бэкенд, API, админка</h3><p>Сервер, база данных и панель управления для сайта или приложения.</p><div class="price"><b>от 250 000 ₸</b><span>до 3 недель</span></div></article>
+      <article class="card wide r"><h3>Мобильное приложение</h3><p>Android и iOS на Flutter — одна кодовая база, публикация в Google Play и App Store.</p><div class="price"><b>от 400 000 ₸</b><span>до 5 недель</span></div></article>
+      <article class="card wide r"><h3>Поддержка</h3><p>Правки, обновления, контроль работы. Сайт · бот · Mini App · приложение.</p><div class="price"><b>от 5 000 ₸/мес</b><span>5 / 15 / 25 / 40 тыс ₸</span></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="examples">
+  <div class="wrap">
+    <p class="kicker r">Примеры</p>
+    <h2 class="r">Так выглядит результат.</h2>
+    <p class="lead r">Демо-сайты на вымышленные бизнесы — пакет «Сайт-визитка». Откройте с телефона.</p>
+    <div class="ex-grid">
+      <a class="ex ex-car r" href="../demo-carwash/">
+        <span class="ex-tag">Автомойка</span>
+        <span class="ex-title">Тёмный премиальный стиль, цены, запись в WhatsApp.</span>
+        <span class="ex-more">Открыть демо ›</span>
       </a>
-      <a class="ex" href="https://zatovagul.github.io/demo-sites/demo-dental/" target="_blank" rel="noopener">
-        <span class="ex-ico">🦷</span><span><b>Стоматология</b><br><small>врачи, цены «от», запись на приём</small></span><span class="arrow">→</span>
+      <a class="ex ex-dent r" href="../demo-dental/">
+        <span class="ex-tag">Стоматология</span>
+        <span class="ex-title">Светлый и спокойный, прайс «от», запись на приём.</span>
+        <span class="ex-more">Открыть демо ›</span>
       </a>
     </div>
   </div>
 </section>
 
-<section class="block" id="how">
+<section class="section dark ai">
   <div class="wrap">
-    <h2>Как работаем</h2>
+    <p class="kicker r">Почему быстро и недорого</p>
+    <h2 class="r">ИИ делает рутину.<br><span class="grad-light">Разработчик — результат.</span></h2>
+    <div class="ai-grid">
+      <div class="r"><h3>Скорость</h3><p>Вёрстку, шаблонный код и черновики текстов готовят ИИ-инструменты. Срок — дни, а не месяцы.</p></div>
+      <div class="r"><h3>Качество</h3><p>Архитектуру, проверку и запуск делаю сам как разработчик. Вы получаете рабочий продукт, а не генерацию.</p></div>
+      <div class="r"><h3>Цена</h3><p>Меньше ручной рутины — ниже цена, чем у студии. Всё оформляется на вас и остаётся вашим.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section gray" id="how">
+  <div class="wrap">
+    <p class="kicker r">Как работаем</p>
+    <h2 class="r">Пять шагов до запуска.</h2>
     <ol class="steps">
-      <li><b>Созвон 15 минут.</b> Что продаёте, откуда приходят клиенты, что они спрашивают.</li>
-      <li><b>Фиксируем задачу и цену.</b> Письменно, до начала работ.</li>
-      <li><b>Предоплата 50% через Kaspi.</b> Вы присылаете логотип, фото, прайс.</li>
-      <li><b>Показываю результат, вносим правки.</b> Все правки по заданию — без ограничения раундов до сдачи и 14 дней после. Новые функции оцениваю заранее.</li>
-      <li><b>Запуск и оплата 50%.</b> Домен и аккаунты оформляются на вас — всё остаётся вашим.</li>
+      <li class="r"><b>Созвон 15 минут</b><span>Что продаёте, откуда приходят клиенты, что они спрашивают.</span></li>
+      <li class="r"><b>Задача и цена</b><span>Фиксируем письменно, до начала работ.</span></li>
+      <li class="r"><b>Предоплата 50%</b><span>Через Kaspi. Вы присылаете логотип, фото и прайс.</span></li>
+      <li class="r"><b>Результат и правки</b><span>Все правки по заданию — без ограничения раундов до сдачи и 14 дней после. Новые функции оцениваю заранее.</span></li>
+      <li class="r"><b>Запуск и 50%</b><span>Домен и аккаунты оформляются на вас.</span></li>
     </ol>
   </div>
 </section>
 
-<section class="block alt" id="faq">
-  <div class="wrap">
-    <h2>Частые вопросы</h2>
-    <details><summary>Сколько стоит содержание сайта?</summary><p>Сайт-визитка лежит на бесплатном хостинге — 0 ₸ в месяц. Свой домен .kz — по желанию, около 9 600 ₸ в год у регистратора, оформляется на вас. Хостинг в Казахстане или почта на домене — от ~430 ₸ в месяц при оплате за год.</p></details>
-    <details><summary>У меня есть Instagram, зачем сайт?</summary><p>Instagram оставляем. Сайт ловит тех, кто ищет «услуга + район» в Google и 2GIS, и показывает цены, адрес и запись на одной странице. Ссылку на сайт ставим в шапку профиля.</p></details>
-    <details><summary>Почему так быстро и недорого?</summary><p>ИИ-инструменты берут на себя рутину — вёрстку, шаблонный код, тексты-черновики. Я как разработчик отвечаю за архитектуру, проверку качества и запуск. Поэтому срок — дни, а цена ниже, чем у студии.</p></details>
-    <details><summary>Что нужно от меня?</summary><p>15 минут на созвон, логотип, 5–10 фото и прайс. Остальное делаю я.</p></details>
-    <details><summary>Сложный проект — приложение, интеграция с 1С?</summary><p>Да. После созвона составлю задание и смету, оплата поэтапно.</p></details>
+<section class="section" id="faq">
+  <div class="wrap narrow">
+    <p class="kicker r">Вопросы</p>
+    <h2 class="r">Частые вопросы.</h2>
+    <details class="r"><summary>Сколько стоит содержание сайта?</summary><p>Сайт-визитка лежит на бесплатном хостинге — 0 ₸ в месяц. Свой домен .kz — по желанию, около 9 600 ₸ в год у регистратора, оформляется на вас. Хостинг в Казахстане или почта на домене — от ~430 ₸ в месяц при оплате за год.</p></details>
+    <details class="r"><summary>У меня есть Instagram, зачем сайт?</summary><p>Instagram оставляем. Сайт ловит тех, кто ищет «услуга + район» в Google и 2GIS, и показывает цены, адрес и запись на одной странице. Ссылку на сайт ставим в шапку профиля.</p></details>
+    <details class="r"><summary>Почему так быстро и недорого?</summary><p>ИИ-инструменты берут на себя рутину — вёрстку, шаблонный код, черновики текстов. Я как разработчик отвечаю за архитектуру, проверку качества и запуск.</p></details>
+    <details class="r"><summary>Что нужно от меня?</summary><p>15 минут на созвон, логотип, 5–10 фото и прайс. Остальное делаю я.</p></details>
+    <details class="r"><summary>Сложный проект — приложение, интеграция с 1С?</summary><p>Да. После созвона составлю задание и смету, оплата поэтапно.</p></details>
   </div>
 </section>
 
-<section class="block cta" id="contacts">
+<section class="section dark cta" id="contacts">
   <div class="wrap">
-    <h2>Обсудим вашу задачу?</h2>
-    <p class="sub">Напишите в WhatsApp или Telegram — отвечу и предложу время для созвона.</p>
-    <a class="btn" href="https://wa.me/77475516968?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82">Написать в WhatsApp</a>
-    <a class="btn tg" href="https://t.me/AlmassovTDev">Написать в Telegram</a>
-    <p class="phone"><a href="tel:+77475516968">+7 747 551 69 68</a> · <a href="https://t.me/AlmassovTDev">@AlmassovTDev</a></p>
+    <h2 class="r">Обсудим вашу задачу?</h2>
+    <p class="lead r">Напишите — отвечу и предложу время для созвона.</p>
+    <div class="cta-row r">
+      <a class="pill green" href="https://wa.me/77475516968?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82">WhatsApp</a>
+      <a class="pill tg" href="https://t.me/AlmassovTDev">Telegram</a>
+    </div>
+    <p class="contacts r"><a href="tel:+77475516968">+7 747 551 69 68</a> · <a href="https://t.me/AlmassovTDev">@AlmassovTDev</a></p>
   </div>
 </section>
 
-<footer>
-  <div class="wrap">
-    <p>Темирлан Алмасов · мобильный разработчик (Flutter/Android) · ИП · Алматы · +7 747 551 69 68 · Telegram @AlmassovTDev</p>
-  </div>
+</main>
+
+<footer class="foot">
+  <div class="wrap">Темирлан Алмасов · мобильный разработчик (Flutter/Android) · ИП · Алматы</div>
 </footer>
 
+<script>
+(function(){var els=document.querySelectorAll('.r');if(!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('in')});return}
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});
+var nav=document.querySelector('.nav');addEventListener('scroll',function(){nav.classList.toggle('scrolled',scrollY>10)},{passive:true});})();
+</script>
 </body>
 </html>
